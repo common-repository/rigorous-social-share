@@ -1,0 +1,226 @@
+
+/*---------- rss-demo-1 css---------*/
+
+.rss-social-share-wrapper.rss-demo-1{
+	display: block;
+	padding: 15px 0;
+}
+
+.rss-demo-1 .icon-wrapper {
+	display: inline-block;
+	margin-right: 15px;
+	position: relative;
+}
+
+.rss-demo-1 .icon-wrapper a{
+	border-radius: 50%;
+	border: 1px solid #e2e2e2;
+	box-shadow: 0 9px 8px #e2e2e2;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 20px;
+	height: 45px;
+	line-height: 43px;
+	text-align: center;
+	transition: all 0.6s ease-in-out;
+	width: 45px;
+}
+
+.rss-demo-1 span.count{
+	display: block;
+	padding-top: 5px;
+	text-align: center;
+}
+
+/*----- hover effect of demo-1----------*/
+
+.rss-demo-1 .icon-wrapper a.facebook:hover i{
+	color:  #3B5998; 
+}
+
+.rss-demo-1 .icon-wrapper a.twitter:hover i{
+	color: #55ACEE; 
+}
+
+.rss-demo-1 .icon-wrapper a.pinterest:hover i{
+	color: #EA1514;
+}
+
+.rss-demo-1 .icon-wrapper a.linkedin:hover i{	
+	color: #0083BE; 
+}
+
+.rss-demo-1 .icon-wrapper a.googleplus:hover i{
+	color: #DC4E40;
+}
+
+
+/*----------- responsive-part of demo-1 -------------*/
+
+@media screen and (max-width: 480px) {
+	.rss-demo-1 .icon-wrapper {
+		margin-right: 5px;
+	}
+
+}
+
+
+/*---------- rss-demo-2 css---------*/
+.rss-social-share-wrapper.rss-demo-2{
+	display: block;
+	padding: 15px 0;
+	position: relative;
+}
+
+.rss-demo-2 .icon-wrapper{
+	background: #222534;
+	border-right:1px solid #cdcdcd;
+	display: inline-block;
+	padding: 10px 0;
+	text-align: center;
+	width: 80px;
+}
+
+.rss-demo-2 .icon-wrapper:last-child{
+	border-right: 0;
+}
+
+.rss-demo-2 .icon-wrapper a{
+	box-shadow: none;
+	display: block;
+	color: #fff;
+	text-align: center;
+	width: 100%;
+}
+
+.rss-demo-2 .icon-wrapper a:hover{
+	box-shadow: none;
+	color: #fff;
+}
+
+.rss-demo-2 span.count{
+	display: block;
+	color: #fff; 
+}
+
+/*----------- responsive-part of demo-2-------------*/
+
+@media screen and (max-width: 991px) {
+
+	.rss-demo-2 .icon-wrapper{
+		width: 70px;
+	}
+
+}
+
+@media screen and (max-width: 415px) {
+
+	.rss-demo-2 .icon-wrapper{
+		width: 50px;
+	}
+
+	.rss-demo-2 .icon-wrapper{
+		padding: 2px 0 0;
+	}
+
+}
+
+/*---------- rss-demo-3 css---------*/
+
+.rss-social-share-wrapper.rss-demo-3{
+	display: block;
+	padding: 15px 0;
+}
+
+.rss-demo-3 .icon-wrapper {
+	display: inline-block;
+	position: relative;
+	text-align: center;
+}
+
+.rss-demo-3 .icon-wrapper a{
+	border: 1px solid #e2e2e2;
+	display: inline-block;
+	height: 50px;
+	line-height: 44px;
+	text-align: center;
+	transition: all 0.6s ease-in-out;
+	width: 100px;
+}
+
+.rss-demo-3 span.count{
+	display: none;	
+}
+
+.rss-demo-3 .icon-wrapper a.facebook i{
+	color:  #3B5998; 
+}
+
+.rss-demo-3 .icon-wrapper a.twitter i{
+	color: #55ACEE; 
+}
+
+.rss-demo-3 .icon-wrapper a.pinterest i{
+	color: #EA1514;
+}
+
+.rss-demo-3 .icon-wrapper a.linkedin i{	
+	color: #0083BE; 
+}
+
+.rss-demo-3 .icon-wrapper a.googleplus i{
+	color: #DC4E40;
+}
+
+.rss-demo-3 span.count{
+	display: block;
+}
+
+/*----- hover effect of demo-3 ----------*/
+
+.rss-demo-3 .icon-wrapper a.facebook:hover{
+	background:  #3B5998; 
+}
+
+.rss-demo-3 .icon-wrapper a.twitter:hover{
+	background: #55ACEE; 
+}
+
+.rss-demo-3 .icon-wrapper a.pinterest:hover{
+	background: #EA1514;
+}
+
+.rss-demo-3 .icon-wrapper a.linkedin:hover{	
+	background: #0083BE; 
+}
+
+.rss-demo-3 .icon-wrapper a.googleplus:hover{
+	background: #DC4E40;
+}
+
+.rss-demo-3 .icon-wrapper a.facebook:hover i,
+.rss-demo-3 .icon-wrapper a.twitter:hover i,
+.rss-demo-3 .icon-wrapper a.pinterest:hover i,
+.rss-demo-3 .icon-wrapper a.linkedin:hover i,
+.rss-demo-3 .icon-wrapper a.googleplus:hover i{
+	color: #fff;
+}
+
+
+/*----------- responsive-part of demo-3 -------------*/
+
+@media screen and (max-width: 991px) {
+
+	.rss-demo-3 span.count{
+		display: block;
+		top: 37px;
+		right: 15px;
+	}
+
+	.rss-demo-3 .icon-wrapper a{
+		height: 40px;
+		line-height: 37px;
+		width: 40px;
+	}
+
+}
